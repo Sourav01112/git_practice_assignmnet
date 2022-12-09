@@ -18,8 +18,7 @@ function Prime(element){
             else
             {
               return false;
-            }
-            
+            }      
 }
     let result = Prime(13)
  if (result == true){
