@@ -3,7 +3,7 @@
 
 let count = 0
 let num = 19
-for (let i = 1; i <= num; i++) {
+for (let i = 2; i <= num; i++) {
   if (num % i == 0) {
     count++
   }
