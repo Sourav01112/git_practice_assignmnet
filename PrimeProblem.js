@@ -1,15 +1,30 @@
 // Prime Problem
 
+function Prime(element){
+    let c = 0;
+    
+    for (let i=1; i<=element; i++)
+    {
+        
+        if(element % i == 0)
+        {
+            c++;
+        } 
+    }
+            if(c==2)
+            {
+               return true;
+            }
+            else
+            {
+              return false;
+            }      
+}
+    let result = Prime(13)
+ if (result == true){
+   console.log("Prime")
+ }else{
+   console.log("Not Prime")
+ }
 
-let count = 0
-let num = 19
-for (let i = 2; i <= num; i++) {
-  if (num % i == 0) {
-    count++
-  }
-}
-if(count==1){
-  console.log("Prime Number")
-} else{
-  console.log("No")
-}
+
